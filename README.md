@@ -1394,22 +1394,22 @@ Now that our component is connected to the store, we can update the `onClick` ev
 
 ```js
 const initialState = {
-   loanType: 'Home Purchase',
-   propertyType: 'Single Family Home',
-   city: '',
-   propToBeUsedOn: '',
-   found: false,
-   realEstateAgent: "false",
-   cost: 0,
-   downPayment: 0,
-   credit: '',
-   history: '',
-   addressOne: '',
-   addressTwo: '',
-   addressThree: '',
-   firstName: 'aa',
-   lastName: '',
-   email: ''
+  loanType: 'Home Purchase',
+  propertyType: 'Single Family Home',
+  city: '',
+  propToBeUsedOn: '',
+  found: false,
+  realEstateAgent: "false",
+  cost: 0,
+  downPayment: 0,
+  credit: '',
+  history: '',
+  addressOne: '',
+  addressTwo: '',
+  addressThree: '',
+  firstName: 'aa',
+  lastName: '',
+  email: ''
 }
 
 const UPDATE_LOAN_TYPE = "UPDATE_LOAN_TYPE";
